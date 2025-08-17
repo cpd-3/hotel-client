@@ -9,6 +9,7 @@ import {
 import {MatFormField, MatLabel, MatSuffix} from '@angular/material/input';
 import {MatFormFieldModule, MatHint} from '@angular/material/form-field';
 import {provideNativeDateAdapter} from '@angular/material/core';
+import {MatMenu, MatMenuItem, MatMenuTrigger} from '@angular/material/menu';
 
 @Component({
   selector: 'app-stays-form-component',
@@ -22,7 +23,10 @@ import {provideNativeDateAdapter} from '@angular/material/core';
     MatHint,
     MatSuffix,
     MatDatepickerToggle,
-    MatDateRangePicker
+    MatDateRangePicker,
+    MatMenu,
+    MatMenuItem,
+    MatMenuTrigger
   ],
   providers: [provideNativeDateAdapter()],
   changeDetection: ChangeDetectionStrategy.OnPush,

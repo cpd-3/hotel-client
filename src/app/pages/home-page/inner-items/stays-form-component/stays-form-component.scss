@@ -46,8 +46,28 @@
   background-color: var(--light-color);
   padding: 5px;
   border-radius: 5px;
+  justify-content: space-between;
+  cursor: pointer;
 
   mat-icon{
     color: var(--gray-color);
   }
+}
+.search-button{
+  width: 15%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  background-color: var(--light-color);
+  border-radius: 5px;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.search-btn{
+  flex:1;
+  background-color: var(--background-color);
+  color: var(--light-color);
+  height: 100%;
+  border: none;
+  border-radius: 5px;
 }
