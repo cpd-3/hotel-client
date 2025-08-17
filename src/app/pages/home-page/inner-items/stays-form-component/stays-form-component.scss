@@ -71,3 +71,51 @@
   border: none;
   border-radius: 5px;
 }
+.visitor-widget{
+  width: 250px;
+  height: 170px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.widget{
+  height: 30px;
+  border: 1px solid var(--gray-color);
+  width: 100px;
+  display: flex;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: space-between;
+}
+.row-element{
+  display:flex;
+  height: 40px;
+  align-items: center;
+}
+.left-side{
+
+}
+.tool-btn{
+  border: none;
+  background: none;
+  color: var(--background-color);
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+}
+.tool-btn:hover{
+  background-color: rgba(6,81,221,0.1);
+}
+.right-side{
+  flex:1;
+  display: flex;
+  justify-content: flex-end;
+}
+.done{
+  flex:1;
+  background-color: var(--background-color);
+  color: var(--light-color);
+  height: 100%;
+  border: none;
+  border-radius: 5px;
+}
