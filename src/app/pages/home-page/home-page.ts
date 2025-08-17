@@ -1,8 +1,11 @@
 import { Component } from '@angular/core';
+import {MainHeader} from './inner-items/main-header/main-header';
 
 @Component({
   selector: 'app-home-page',
-  imports: [],
+  imports: [
+    MainHeader
+  ],
   templateUrl: './home-page.html',
   styleUrl: './home-page.scss'
 })
