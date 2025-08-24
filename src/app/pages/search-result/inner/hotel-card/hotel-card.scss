@@ -14,20 +14,17 @@
 .left {
   width: 200px;
   min-width: 200px;
-  border: 1px solid red;
   height: 200px;
 }
 
 .middle {
   flex: 1;
-  border: 1px solid red;
   padding: 0 10px;
 }
 
 .right {
   width: 200px;
   min-width: 200px;
-  border: 1px solid red;
   height: 200px;
 }
 
@@ -62,23 +59,19 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid red;
   color: var(--orange-color);
 }
 .review-wrapper{
-  border: 1px solid red;
   display: flex;
   justify-content: flex-end;
   margin-bottom: 10px;
 }
 .review-left{
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
 }
 .review-right{
-   border: 1px solid red;
  }
 .review-number{
   width: 35px;
@@ -92,4 +85,18 @@
 
   border-radius: 5px;
   border-bottom-left-radius: 0;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .outer{
+    flex-direction: column;
+  }
+  .left{
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  .right{
+    width: 100%;
+  }
 }
