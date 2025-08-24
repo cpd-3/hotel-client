@@ -3,6 +3,7 @@ import {MatFormField, MatInput, MatLabel} from '@angular/material/input';
 import {MatButton} from '@angular/material/button';
 import {MatCheckbox} from '@angular/material/checkbox';
 import {FormsModule} from '@angular/forms';
+import {RouterLink} from '@angular/router';
 
 @Component({
   selector: 'app-login',
@@ -12,7 +13,8 @@ import {FormsModule} from '@angular/forms';
     MatLabel,
     MatButton,
     MatCheckbox,
-    FormsModule
+    FormsModule,
+    RouterLink
   ],
   templateUrl: './login.html',
   styleUrl: './login.scss'
